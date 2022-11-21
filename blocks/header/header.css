@@ -4,9 +4,28 @@
     align-items: center;
     justify-content: space-between;
 
-    max-width: 288px;  
-    /* min-height: 42px;  */
+    max-width: 288px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 16px;
+}
+
+@media (min-width: 768px) {
+    .header {
+        max-width: 720px;
+        padding-top: 28px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header {
+        max-width: 928px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .header {
+        max-width: 1184px;
+    }
 }
