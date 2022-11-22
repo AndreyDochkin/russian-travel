@@ -8,8 +8,12 @@
     text-transform: uppercase;
     color: #FFFFFF;
     text-align: start;
-    margin-top: 8px;
+   
+    align-self: flex-end; 
+    margin:0 0 0 0;
     margin-left: 16px;
+
+    transform: translateY(22px);
 }
 
 @media (min-width: 768px) {
@@ -20,12 +24,12 @@
 
 @media (min-width: 1024px) {
     .lead__caption {
-        margin-left: 48px;
+        margin-left: 0px;
     }
 }
 
 @media (min-width: 1280px) {
     .lead__caption {
-        margin-left: 148px;
+        /* margin-left: 148px; */
     }
 }
