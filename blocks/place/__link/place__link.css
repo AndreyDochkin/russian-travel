@@ -1,0 +1,17 @@
+.place__link{
+    max-width: calc(100vw - 10vw);
+/* max-width: 288px; */
+min-height: 22px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+text-decoration-line: none;
+color: #FFFFFF;
+margin: 0;
+}
+
+.place__link:hover{
+    text-decoration-line: underline;
+}

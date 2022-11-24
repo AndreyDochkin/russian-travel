@@ -1,0 +1,27 @@
+.place__paragraph {
+    /* max-width: 288px; */
+    max-width: calc(100vw - 10vw);
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    color: #FFFFFF;
+    margin: 0px auto 25px auto;
+}
+
+.place__paragraph:last-child {
+    margin-bottom: 0px;
+}
+
+/* @media (min-width: 768px) {
+    .place__paragraph {
+    }
+} */
+
+@media (min-width: 1024px) {
+    .place__paragraph {
+        font-size: 18px;
+    }
+}

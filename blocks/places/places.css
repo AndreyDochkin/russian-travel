@@ -1,0 +1,13 @@
+.places {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px auto 16px auto;
+}
+
+@media (min-width: 768px) {
+    .places {
+        margin-bottom: 18px;
+    }
+}
+
