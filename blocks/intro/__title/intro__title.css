@@ -1,5 +1,5 @@
 .intro__title {
-    min-width: 90vw;
+    /* min-width: 90vw; */
     /* max-width: 288px; */
     /* min-height: 70px; */
     word-break: normal;
@@ -9,9 +9,8 @@
     font-size: 32px;
     line-height: 35px;
     color: #FFFFFF;
-    margin: auto;
+    margin: 0px auto 40px;
     padding: 0 0 0 0;
-    margin-bottom: 40px;
 }
 
 @media (min-width: 768px) {
