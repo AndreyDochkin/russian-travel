@@ -21,7 +21,7 @@
     }
 }
 
-@media (min-width: 1024px){
+@media (min-width: 1024px) {
     .cover {
         max-width: 1024px;
         min-height: 640px;
@@ -29,7 +29,7 @@
     }
 }
 
-@media (min-width: 1280px){
+@media (min-width: 1280px) {
     .cover {
         max-width: 1184px;
         min-height: 740px;
