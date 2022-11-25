@@ -8,11 +8,10 @@
     text-transform: uppercase;
     color: #FFFFFF;
     text-align: start;
-   
-    align-self: flex-end; 
-    margin:0 0 0 0;
-    margin-left: 16px;
 
+    align-self: flex-end;
+    margin: 0px 0px 0px 0px;
+    margin-left: 16px;
     transform: translateY(22px);
 }
 
@@ -25,11 +24,5 @@
 @media (min-width: 1024px) {
     .lead__caption {
         margin-left: 0px;
-    }
-}
-
-@media (min-width: 1280px) {
-    .lead__caption {
-        /* margin-left: 148px; */
     }
 }

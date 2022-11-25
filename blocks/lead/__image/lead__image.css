@@ -7,7 +7,7 @@
     background-position: center;
     position: relative;
     display: flex;
-    margin: 0px auto 0px auto
+    margin: 0px auto 0px auto;
 }
 
 @media (min-width: 768px) {
@@ -15,7 +15,6 @@
         width: 768px;
         height: 480px;
         background-image: url("../../../images/lead-polka__768.jpg");
-
     }
 }
 
@@ -24,7 +23,6 @@
         width: 928px;
         height: 580px;
         background-image: url("../../../images/lead-polka__1024.jpg");
-
     }
 }
 
@@ -33,6 +31,5 @@
         width: 984px;
         height: 615px;
         background-image: url("../../../images/lead-polka__1280.jpg");
-
     }
 }
