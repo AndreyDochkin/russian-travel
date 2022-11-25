@@ -1,6 +1,7 @@
 .intro__title {
-    max-width: 288px;
-    min-height: 70px;
+    min-width: 90vw;
+    /* max-width: 288px; */
+    /* min-height: 70px; */
     word-break: normal;
     font-family: 'Inter';
     font-style: normal;

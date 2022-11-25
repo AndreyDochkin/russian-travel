@@ -1,6 +1,7 @@
 .intro__text {
-    max-width: 288px;
-    min-height: 520px;
+    max-width: 90vw;
+    /* max-width: 288px; */
+    /* min-height: 520px; */
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
