@@ -1,12 +1,10 @@
 .lead__image {
     width: 100vw;
-    /* width: 320px; */
-    height: 200px;
-    background-image: url("../../../images/lead-polka__320.jpg");
+    width: 100%;
+    min-height: 200px;
+    background-image: url("../../../images/rail_road_map.svg");
     background-size: cover;
     background-position: center;
-    position: relative;
-    display: flex;
     margin: 0px auto 0px auto;
 }
 
@@ -14,7 +12,6 @@
     .lead__image {
         width: 768px;
         height: 480px;
-        background-image: url("../../../images/lead-polka__768.jpg");
     }
 }
 
@@ -22,7 +19,6 @@
     .lead__image {
         width: 928px;
         height: 580px;
-        background-image: url("../../../images/lead-polka__1024.jpg");
     }
 }
 
@@ -30,6 +26,5 @@
     .lead__image {
         width: 984px;
         height: 615px;
-        background-image: url("../../../images/lead-polka__1280.jpg");
     }
 }

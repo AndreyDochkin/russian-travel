@@ -1,23 +1,25 @@
 .lead {
     margin-top: 48px;
-    /* margin-bottom: 64px; */
-    margin-bottom: calc(64px + 22px);
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 @media (min-width: 768px) {
     .lead {
-        margin-bottom: calc(88px + 22px);
+        margin-bottom: 88px;
     }
 }
 
 @media (min-width: 1024px) {
     .lead {
-        margin-bottom: calc(92px + 22px);
+        margin-bottom: 92px;
     }
 }
 
 @media (min-width: 1280px) {
     .lead {
-        margin-top: 56px; 
+        margin-top: 56px;
     }
 }
