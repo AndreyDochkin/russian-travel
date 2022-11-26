@@ -1,5 +1,4 @@
 .place__website {
-    /* max-width: 288px; */
     max-width: calc(100vw - 10vw);
     width: 100%;
     min-height: 46px;
