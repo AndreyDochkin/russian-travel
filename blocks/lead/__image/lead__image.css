@@ -6,12 +6,6 @@
     margin: 0px auto 0px auto;
 }
 
-@media (min-width: 768) {
-    .lead__image {
-        /* min-height: 480px; */
-    }
-}
-
 @media (min-width: 1024px) {
     .lead__image {
         max-width: 928px;
